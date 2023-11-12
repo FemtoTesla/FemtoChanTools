@@ -4,7 +4,7 @@ using UnityEngine;
 using System.IO;
 using UnityEditor;
 
-namespace FemtoChanTools.FresnelTextureConverter
+namespace FemtoChanTools.RenderTextureConverter
 {
     [CreateAssetMenu(fileName = "RenderTextureConverter", menuName = "FemtoChanTools/RenderTextureConverter")]
     public class RenderTextureConverter : ScriptableObject
