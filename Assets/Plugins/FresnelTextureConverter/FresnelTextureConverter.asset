@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c58dffa576359441a1ee05efa79ed8e, type: 3}
+  m_Name: FresnelTextureConverter
+  m_EditorClassIdentifier: 
+  computeShader: {fileID: 7200000, guid: f11bf5c3b21eab241a63015c6996db25, type: 3}
+  sourceTexture: {fileID: 2800000, guid: 074f8ae172af0714395d88a88330b35d, type: 3}
+  edge: 20
+  textureSize: 1024
+  renderTextureAsset: {fileID: 8400000, guid: a5554e14ffe430d41ae9249e2261e525, type: 2}
