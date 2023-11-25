@@ -1,0 +1,14 @@
+{
+    "name": "FemtoChanTools.VFXTextureConverter",
+    "rootNamespace": "FemtoChanTools",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
