@@ -1,0 +1,33 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using System.IO;
+using UnityEditor;
+
+namespace FemtoChanTools.#SCRIPTNAME#
+{
+    [CreateAssetMenu(fileName = "#SCRIPTNAME#", menuName = "FemtoChanTools/#SCRIPTNAME#")]
+    public class #SCRIPTNAME# : ScriptableObject
+    {
+        public void Execute(out Object _context)
+        {
+
+        }
+    }
+
+    [CustomEditor(typeof(#SCRIPTNAME#))]
+    public class #SCRIPTNAME#Editor : Editor
+    {
+        public override void OnInspectorGUI()
+        {
+            base.OnInspectorGUI();
+
+            var _target = target as #SCRIPTNAME#;
+
+            if (GUILayout.Button("Execute"))
+            {
+                _target.Execute(out Object _context);
+            }
+        }
+    }
+}
